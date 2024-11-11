@@ -20,7 +20,7 @@
        
         body {
             font-family: 'Roboto', sans-serif;
-            background-image: url('file:///C|/Users/mario/Downloads/restaurant-background.jpg'); /* Replace with actual restaurant background */
+            background-image: url(restaurant-background.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -38,7 +38,7 @@
 			
         }
 
-        /* Header Section */
+        
         header {
             text-align: center;
             padding: 20px 0;
@@ -59,7 +59,7 @@
             font-weight: 700;
         }
 
-        /* Navigation Menu */
+        
         nav {
             margin: 20px 0;
             text-align: center;
@@ -90,7 +90,7 @@
             background-color: #00756b;
         }
 
-        /* Address Section */
+      
         .address-box {
             border: 1px solid #ddd;
             padding: 15px;
@@ -107,7 +107,7 @@
 			color: lightcyan
         }
 
-        /* Happy Hour Section */
+       
         .happy-hour {
             background-color: #416B706;
             padding: 15px;
@@ -162,7 +162,7 @@
             font-size: 1.1em;
         }
 
-        /* Cultural Background Section */
+        
         .cultural-background {
             background-color: #AB876B;
             padding: 15px;
@@ -197,7 +197,7 @@
             color: #00796b;
         }
 
-        /* Contact Form */
+        
         .contact-form {
             margin-top: 20px;
         }
@@ -225,7 +225,7 @@
             background-color: #00796b;
         }
 
-        /* Footer */
+        
         footer {
             text-align: center;
             padding: 15px;
@@ -233,7 +233,7 @@
             color: #666;
         }
 
-        /* Animations */
+       
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -246,12 +246,12 @@
 </head>
 <body>
     <div class="wrapper">
-        <!-- Header Section -->
+        
         <header>
             <h1>Mediterranean Bliss</h1>
         </header>
 
-        <!-- Navigation Menu -->
+        
         <nav>
             <ul>
                 <li><a href="#happy-hour">Happy Hour</a></li>
@@ -260,20 +260,20 @@
             </ul>
         </nav>
 
-        <!-- Address Section -->
+       
         <section class="address-box">
             <h3>Our Location</h3>
             <p>1234 Mediterranean Ave, Seaside City</p>
             <p>Open: Mon-Sun, 11 AM - 11 PM</p>
         </section>
 
-        <!-- Happy Hour Section -->
+        
         <section id="happy-hour" class="happy-hour">
             <h2>Happy Hour Specials</h2>
             <p>Join us every weekday from 4 PM - 7 PM for half-priced drinks and appetizers!</p>
         </section>
 
-        <!-- House Specials Section with Images -->
+       
         <section id="house-specials" class="house-specials">
             <h2>House Specials</h2>
             <div class="dish">
@@ -294,21 +294,21 @@
             </div>
         </section>
 
-        <!-- Cultural Background Section -->
+       
         <section id="cultural-background" class="cultural-background">
             <h2>Our Mediterranean Heritage</h2>
             <p>Mediterranean Bliss brings the flavors of the sun-drenched Mediterranean coast to your table. Our cuisine is inspired by the rich culinary traditions of Greece, Italy, and Spain, offering fresh seafood, vibrant vegetables, and aromatic herbs that celebrate the region's cultural diversity.</p>
             <p>From classic Greek dishes to modern interpretations of Mediterranean staples, every meal we serve is a reflection of our love for authentic, wholesome food.</p>
         </section>
 
-        <!-- Social Media Icons -->
+        
         <div class="social-media">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
 
-        <!-- Contact Form -->
+        
         <section class="contact-form">
             <h2>Contact Us</h2>
             <form action="#">
@@ -319,7 +319,7 @@
             </form>
         </section>
 
-        <!-- Footer -->
+       
         <footer>
             <p>© 2024 Mario Silva. All Rights Reserved.</p>
         </footer>
