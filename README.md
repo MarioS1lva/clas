@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mediterranean Bliss Restaurant</title>
+
+  
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+  
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('restaurant-background.jpg'); /* Replace with actual restaurant background */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #BEC1B;
+            padding: 10px;
+        }
+
+        .wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(149,78,47,0.70);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+			
+        }
+
+    
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-image: url('mediterranean-background.jpg'); /* Replace with actual background */
+            background-size: cover;
+            background-position: center;
+            color: cornflowerblue;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            background-color:lightsteelblue;
+            padding: 15px;
+            border-radius: 8px;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #B6CAE5;
+            color: paleturquoise;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #00756b;
+        }
+
+
+        .address-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: #5F7AD3;
+        }
+
+        .address-box h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: 700;
+			color: lightcyan
+        }
+
+
+        .happy-hour {
+            background-color: #416B706;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease;
+			color: white
+        }
+
+        .happy-hour h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #739781;
+        }
+
+        .house-specials {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+			
+        }
+
+        .house-specials h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #009688;
+        }
+
+        .house-specials .dish {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .house-specials .dish:hover {
+            transform: scale(1.05);
+			color: sandybrown
+        }
+
+        .house-specials .dish img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 10px;
+        }
+
+        .house-specials .dish p {
+            font-size: 1.1em;
+        }
+
+        .cultural-background {
+            background-color: #AB876B;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .cultural-background h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .cultural-background p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+
+        .social-media {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5em;
+            color: #555;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #00796b;
+        }
+
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #009688;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #00796b;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header Section -->
+        <header>
+            <h1>Mediterranean Bliss</h1>
+        </header>
+
+  
+        <nav>
+            <ul>
+                <li><a href="#happy-hour">Happy Hour</a></li>
+                <li><a href="#house-specials">House Specials</a></li>
+                <li><a href="#cultural-background">Our Story</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="address-box">
+            <h3>Our Location</h3>
+            <p>1234 Mediterranean Ave, Seaside City</p>
+            <p>Open: Mon-Sun, 11 AM - 11 PM</p>
+        </section>
+
+
+        <section id="happy-hour" class="happy-hour">
+            <h2>Happy Hour Specials</h2>
+            <p>Join us every weekday from 4 PM - 7 PM for half-priced drinks and appetizers!</p>
+        </section>
+
+        <section id="house-specials" class="house-specials">
+            <h2>House Specials</h2>
+            <div class="dish">
+                <a href="pexels-ali-dashti-506667798-29300011.jpg"><img src="lamb.jpg" alt="Grilled Lamb"></a>
+<p>Grilled Lamb with Tzatziki Sauce</p>
+          </div>
+            <div class="dish">
+                <img src="paella.jpg" alt="Seafood Paella">
+              <p>Seafood Paella</p>
+          </div>
+            <div class="dish">
+                <a href="pexels-ali-dashti-506667798-29300011.jpg"><img src="hummus.jpg" alt="Hummus Platter"></a>
+<p>Hummus Platter with Fresh Pita</p>
+          </div>
+            <div class="dish">
+                <img src="greek-salad.jpg" alt="Greek Salad">
+                <p>Greek Salad with Feta Cheese</p>
+            </div>
+        </section>
+
+
+        <section id="cultural-background" class="cultural-background">
+            <h2>Our Mediterranean Heritage</h2>
+            <p>Mediterranean Bliss brings the flavors of the sun-drenched Mediterranean coast to your table. Our cuisine is inspired by the rich culinary traditions of Greece, Italy, and Spain, offering fresh seafood, vibrant vegetables, and aromatic herbs that celebrate the region's cultural diversity.</p>
+            <p>From classic Greek dishes to modern interpretations of Mediterranean staples, every meal we serve is a reflection of our love for authentic, wholesome food.</p>
+        </section>
+
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2024 Mario Silva. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
