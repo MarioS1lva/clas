@@ -20,7 +20,7 @@
        
         body {
             font-family: 'Roboto', sans-serif;
-            background-image: url('restaurant-background.jpg'); /* Replace with actual restaurant background */
+            background-image: url('file:///C|/Users/mario/Downloads/restaurant-background.jpg'); /* Replace with actual restaurant background */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -42,7 +42,7 @@
         header {
             text-align: center;
             padding: 20px 0;
-            background-image: url('mediterranean-background.jpg'); /* Replace with actual background */
+            background-image: url('file:///C|/Users/mario/Downloads/mediterranean-background.jpg'); /* Replace with actual background */
             background-size: cover;
             background-position: center;
             color: cornflowerblue;
@@ -277,19 +277,19 @@
         <section id="house-specials" class="house-specials">
             <h2>House Specials</h2>
             <div class="dish">
-                <a href="pexels-ali-dashti-506667798-29300011.jpg"><img src="lamb.jpg" alt="Grilled Lamb"></a>
-<p>Grilled Lamb with Tzatziki Sauce</p>
+                <a href="file:///C|/Users/mario/Downloads/pexels-ali-dashti-506667798-29300011.jpg"><img src="pexels-valeriya-18330963.jpg" alt="Grilled Lamb"></a>
+<p>Grilled Lamb</p>
           </div>
             <div class="dish">
                 <img src="paella.jpg" alt="Seafood Paella">
               <p>Seafood Paella</p>
           </div>
             <div class="dish">
-                <a href="pexels-ali-dashti-506667798-29300011.jpg"><img src="hummus.jpg" alt="Hummus Platter"></a>
+                <a href="file:///C|/Users/mario/Downloads/pexels-ali-dashti-506667798-29300011.jpg"><img src="pexels-karolina-grabowska-5421504.jpg" alt="Hummus Platter"></a>
 <p>Hummus Platter with Fresh Pita</p>
           </div>
             <div class="dish">
-                <img src="greek-salad.jpg" alt="Greek Salad">
+                <img src="salad-photo.jpg" alt="Greek Salad">
                 <p>Greek Salad with Feta Cheese</p>
             </div>
         </section>
