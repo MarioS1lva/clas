@@ -158,17 +158,17 @@
             </section>
             <section class="synopsis">
                 <p>Follow the story of a lone cowboy seeking justice in the untamed Wild West.</p>
-                <img src="file:///C|/Users/mario/Downloads/pexels-alpography-14132917.jpg" alt="Cowboy character">
+                <img src="file://C|/Users/mario/Downloads/pexels-alpography-14132917.jpg" alt="Cowboy character">
             </section>
             <section class="cast-crew">
                 <h2>Cast & Crew</h2>
                 <div class="grid">
                   <div>
-                        <img src="file:///C|/Users/mario/Downloads/pexels-cottonbro-6894160.jpg" alt="Actor 1">
+                        <img src="file://C|/Users/mario/Downloads/pexels-cottonbro-6894160.jpg" alt="Actor 1">
                         <p>Jacob Herrera</p>
                     </div>
                     <div>
-                        <img src="file:///C|/Users/mario/Downloads/pexels-cottonbro-7265991.jpg" alt="Actor 3">
+                        <img src="file://C|/Users/mario/Downloads/pexels-cottonbro-7265991.jpg" alt="Actor 3">
                         <p>Miguel Lopez</p>
                     </div>
                 </div>
