@@ -115,13 +115,15 @@
         </header>
         <main>
             <section id="salad">
-                <img src="Salad1.jpg" alt="chiken salad">
+                <img src= ![Salad1](https://github.com/user-attachments/assets/06b6ab85-ad7f-4ac5-b077-13231f709b46)
+alt="chiken salad">
                 <h2>Delicious &amp; Healthy</h2>
                 <p>Perfectly crisp with chicken and eggs to add some protein to your plate.</</p>
                 <a href="#" class="btn">Order Now</a>
             </section>
             <section id="fresh">
-                <img src="Salad2.jpg" alt="Salad Bowl">
+                <img src= ![Salad2](https://github.com/user-attachments/assets/ae8320e1-481d-4bd7-b900-206181bbe19e)
+alt="Salad Bowl">
                 <h2>Fresh salad</h2>
                 <p>Our fresh salads are crafted with the finest ingredients for a wholesome meal.
             </section>
