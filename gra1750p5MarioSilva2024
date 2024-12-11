@@ -115,7 +115,7 @@
         </header>
         <main>
             <section id="salad">
-                <img src="Salad1.jpg" alt="Fresh Peas">
+                <img src="Salad1.jpg" alt="chiken salad">
                 <h2>Delicious & Healthy</h2>
                 <p>Our fresh salads are crafted with the finest ingredients for a wholesome meal.</p>
                 <a href="#" class="btn">Order Now</a>
