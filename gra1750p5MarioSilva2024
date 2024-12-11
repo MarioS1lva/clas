@@ -115,13 +115,13 @@
         </header>
         <main>
             <section id="salad">
-                <img src="images/salad-bowl.png" alt="Salad Bowl">
+                <img src="Salad1.jpg" alt="Fresh Peas">
                 <h2>Delicious & Healthy</h2>
                 <p>Our fresh salads are crafted with the finest ingredients for a wholesome meal.</p>
                 <a href="#" class="btn">Order Now</a>
             </section>
             <section id="peas">
-                <img src="images/peas.png" alt="Fresh Peas">
+                <img src="Salad2.jpg" alt="Salad Bowl">
                 <h2>Fresh Peas</h2>
                 <p>Perfectly crisp and fresh peas to add a touch of green to your plate.</p>
             </section>
