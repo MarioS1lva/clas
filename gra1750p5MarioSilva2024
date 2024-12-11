@@ -1,4 +1,4 @@
-c<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -110,13 +110,13 @@ c<!DOCTYPE html>
 </head>
 <body>
     <div class="wrapper">
-        <header>
+<header>
             <h1>Fresh Salad Bowls</h1>
         </header>
         <main>
             <section id="salad">
                 <img src="Salad1.jpg" alt="chiken salad">
-                <h2>Delicious & Healthy</h2>
+                <h2>Delicious &amp; Healthy</h2>
                 <p>Perfectly crisp with chicken and eggs to add some protein to your plate.</</p>
                 <a href="#" class="btn">Order Now</a>
             </section>
@@ -127,4 +127,4 @@ c<!DOCTYPE html>
             </section>
         </main>
         <footer>
-            <p>© 2024, Mario Silva. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+<p>© 2024, Mario Silva. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
