@@ -117,13 +117,13 @@ c<!DOCTYPE html>
             <section id="salad">
                 <img src="Salad1.jpg" alt="chiken salad">
                 <h2>Delicious & Healthy</h2>
-                <p>Our fresh salads are crafted with the finest ingredients for a wholesome meal.</p>
+                <p>Perfectly crisp with chicken and eggs to add some protein to your plate.</</p>
                 <a href="#" class="btn">Order Now</a>
             </section>
             <section id="fresh">
                 <img src="Salad2.jpg" alt="Salad Bowl">
                 <h2>Fresh salad</h2>
-                <p>Perfectly crisp with chicken and eggs to add some protein to your plate.</p>
+                <p>Our fresh salads are crafted with the finest ingredients for a wholesome meal.
             </section>
         </main>
         <footer>
