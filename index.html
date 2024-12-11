@@ -3,326 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mediterranean Bliss Restaurant</title>
-
-  
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <title>Salad Restaurant Mobile App</title>
     <style>
-  
-        * {
+        /* CSS Reset */
+        body, h1, h2, p, img {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-       
         body {
-            font-family: 'Roboto', sans-serif;
-            background-image: url("restaurant-background.jpg");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            color: #BEC1B;
-            padding: 10px;
+            font-family: 'Poppins', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f3ffe2, #a8e063);
+            padding: 20px;
         }
 
         .wrapper {
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
-            background-color: rgba(149,78,47,0.70);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-			
+            background-color: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-        
         header {
+            background: linear-gradient(135deg, #27ae60, #145a32);
+            color: #fff;
             text-align: center;
-            padding: 20px 0;
-            background-image: url('file:///C|/Users/mario/Downloads/mediterranean-background.jpg'); /* Replace with actual background */
-            background-size: cover;
-            background-position: center;
-            color: cornflowerblue;
-            border-radius: 8px;
+            padding: 20px 15px;
         }
 
         header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2em;
-            background-color:lightsteelblue;
-            padding: 15px;
-            border-radius: 8px;
-            letter-spacing: 1px;
+            font-size: 2.5rem;
             font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: 0;
         }
 
-        
-        nav {
-            margin: 20px 0;
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
             text-align: center;
         }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
+        section img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        nav ul li {
-            display: inline-block;
-            margin-right: 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            padding: 10px 20px;
-            background-color: #B6CAE5;
-            color: paleturquoise;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        nav ul li a:hover {
-            background-color: #00756b;
-        }
-
-      
-        .address-box {
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            text-align: center;
-            background-color: #5F7AD3;
-        }
-
-        .address-box h3 {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-            font-weight: 700;
-			color: lightcyan
-        }
-
-       
-        .happy-hour {
-            background-color: #416B706;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            animation: fadeIn 1.5s ease;
-			color: white
-        }
-
-        .happy-hour h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #739781;
-        }
-
-        /* House Specials Section with images */
-        .house-specials {
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-			
-        }
-
-        .house-specials h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #009688;
-        }
-
-        .house-specials .dish {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            transition: transform 0.3s ease;
-        }
-
-        .house-specials .dish:hover {
+        section img:hover {
             transform: scale(1.05);
-			color: sandybrown
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
-        .house-specials .dish img {
-            width: 80px;
-            height: 80px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-right: 10px;
+        section h2 {
+            font-size: 1.8rem;
+            color: #27ae60;
+            margin: 15px 0 10px;
         }
 
-        .house-specials .dish p {
-            font-size: 1.1em;
-        }
-
-        
-        .cultural-background {
-            background-color: #AB876B;
-            padding: 15px;
-            border-radius: 8px;
-        }
-
-        .cultural-background h2 {
-            font-size: 1.5em;
+        section p {
+            font-size: 1rem;
+            color: #34495e;
             margin-bottom: 10px;
         }
 
-        .cultural-background p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-
-        /* Social Media Icons */
-        .social-media {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .social-media a {
-            margin: 0 10px;
-            text-decoration: none;
-            font-size: 1.5em;
-            color: #555;
-            transition: color 0.3s ease;
-        }
-
-        .social-media a:hover {
-            color: #00796b;
-        }
-
-        
-        .contact-form {
-            margin-top: 20px;
-        }
-
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-
-        .contact-form button {
-            padding: 10px 20px;
-            background-color: #009688;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1em;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .contact-form button:hover {
-            background-color: #00796b;
-        }
-
-        
         footer {
+            background-color: #f1f1f1;
+            color: #7f8c8d;
             text-align: center;
             padding: 15px;
-            font-size: 0.9em;
-            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #e0e0e0;
         }
 
-       
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
+        footer p {
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #145a32;
+            transform: translateY(-3px);
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
-        
         <header>
-            <h1>Mediterranean Bliss</h1>
+            <h1>Fresh Salad Bowls</h1>
         </header>
-
-        
-        <nav>
-            <ul>
-                <li><a href="#happy-hour">Happy Hour</a></li>
-                <li><a href="#house-specials">House Specials</a></li>
-                <li><a href="#cultural-background">Our Story</a></li>
-            </ul>
-        </nav>
-
-       
-        <section class="address-box">
-            <h3>Our Location</h3>
-            <p>1234 Mediterranean Ave, Seaside City</p>
-            <p>Open: Mon-Sun, 11 AM - 11 PM</p>
-        </section>
-
-        
-        <section id="happy-hour" class="happy-hour">
-            <h2>Happy Hour Specials</h2>
-            <p>Join us every weekday from 4 PM - 7 PM for half-priced drinks and appetizers!</p>
-        </section>
-
-       
-        <section id="house-specials" class="house-specials">
-            <h2>House Specials</h2>
-            <div class="dish">
-                <a href="file:///C|/Users/mario/Downloads/pexels-ali-dashti-506667798-29300011.jpg"><img src="pexels-valeriya-18330963.jpg" alt="Grilled Lamb"></a>
-<p>Grilled Lamb</p>
-          </div>
-            <div class="dish">
-                <img src="paella.jpg" alt="Seafood Paella">
-              <p>Seafood Paella</p>
-          </div>
-            <div class="dish">
-                <a href="file:///C|/Users/mario/Downloads/pexels-ali-dashti-506667798-29300011.jpg"><img src="pexels-karolina-grabowska-5421504.jpg" alt="Hummus Platter"></a>
-<p>Hummus Platter with Fresh Pita</p>
-          </div>
-            <div class="dish">
-                <img src="salad-photo.jpg" alt="Greek Salad">
-                <p>Greek Salad with Feta Cheese</p>
-            </div>
-        </section>
-
-       
-        <section id="cultural-background" class="cultural-background">
-            <h2>Our Mediterranean Heritage</h2>
-            <p>Mediterranean Bliss brings the flavors of the sun-drenched Mediterranean coast to your table. Our cuisine is inspired by the rich culinary traditions of Greece, Italy, and Spain, offering fresh seafood, vibrant vegetables, and aromatic herbs that celebrate the region's cultural diversity.</p>
-            <p>From classic Greek dishes to modern interpretations of Mediterranean staples, every meal we serve is a reflection of our love for authentic, wholesome food.</p>
-        </section>
-
-        
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-
-        
-        <section class="contact-form">
-            <h2>Contact Us</h2>
-            <form action="#">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="4" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-
-       
+        <main>
+            <section id="salad">
+                <img src="images/salad-bowl.png" alt="Salad Bowl">
+                <h2>Delicious & Healthy</h2>
+                <p>Our fresh salads are crafted with the finest ingredients for a wholesome meal.</p>
+                <a href="#" class="btn">Order Now</a>
+            </section>
+            <section id="peas">
+                <img src="images/peas.png" alt="Fresh Peas">
+                <h2>Fresh Peas</h2>
+                <p>Perfectly crisp and fresh peas to add a touch of green to your plate.</p>
+            </section>
+        </main>
         <footer>
-            <p>© 2024 Mario Silva. All Rights Reserved.</p>
-        </footer>
-    </div>
-</body>
-</html>
+            <p>© 2024, Mario Silva. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
